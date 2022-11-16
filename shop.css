@@ -1,0 +1,67 @@
+#logo{
+    background-size: contain;
+}
+header{
+    
+    position: static;
+    
+    padding: 5px 5px;
+    background-image:  url(img/Thiết_kế_chưa_có_tên-removebg-preview.png),url(img/049be6a71a2bdc75853a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    position: static;
+    margin: 10px 0px 10px;
+    
+}
+footer{
+    position: static;
+    margin: 10px 0px 10px;
+    background-color: rgb(218, 218, 218);
+
+    padding: 15px 0px 10px;
+    color: #585858;
+    text-align: center;
+}
+nav{
+    background-color: #c90f0f;
+    border-radius: 5px;
+    height: 3rem;
+}
+.form-control{
+    height: 36px;
+    margin: auto;
+}
+
+.nav-item{
+    border-radius: 5px;
+    margin: 0px 10px;
+    width: fit-content;
+    text-align: center;
+}
+.nav-link{
+
+    padding: 5px;
+    
+    border-radius: 5px;
+}
+.nav-link:hover{
+    background-color: #ada1a1;
+}
+h1{
+    font-family: 'Open Sans',sans-serif;
+    font-weight:300;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #ff2600;
+    position: relative;
+    
+    min-width: 200px;
+    height: 3px;
+    
+}
+.here{
+    
+    background-color: rgb(255, 174, 0);
+}

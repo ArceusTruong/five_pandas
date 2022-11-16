@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Five Pandas</title>
+    <link rel="shortcut icon" href="img/icon/favicon.ico" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //code here
+      });
+    </script>
+    <style>
+      .col-4{
+        
+        margin: 30px 10px;
+        
+      }
+      .col-7{
+        margin: 30px 20px;
+      }
+      .money{
+        
+        padding: 10px;
+        background-color: bisque;
+      }
+      .giachinh{
+        margin: 20px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 3rem;
+    color: #ff2600;
+      }
+      .giamgia{
+        position: relative; 
+        font-size: small;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        bottom: 10px; 
+        background-color: #ff2600;
+        animation: move 500ms infinite;
+      }
+      @keyframes move{
+        0%{ background-color: #ff2600;}
+        50% { background-color: #ffd000;}
+        100%{ background-color: #ff2600;}
+      }
+      .chitiet{
+        margin: 30px;
+      }
+      .btn-cart{
+        position: relative;
+        left: 35%;
+        border: 0px;
+        margin: 5px;
+        padding: 15px;
+        background-color: rgb(255, 174, 0);
+
+      }
+      .btn-cart:hover{
+        background-color: #ff2600;
+      }
+    </style>
+  </head>
+  <body>
+    
+      <header>
+      <div class="container-fluid">
+        <div id="logo"><a href="index.html"><img src="img/logo.png" width="11%"></a></div>
+        
+      </div>
+        <nav class="navbar navbar-expand-sm">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="mynavbar">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="index.html">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="sanpham.html">Sản Phẩm</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="javascript:void(0)">Đăng Nhập</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="javascript:void(0)">Đăng Ký</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Nhập nội dung tìm kiếm">
+                <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+
+              </form>
+              <button class="btn btn-primary" id="cart">
+                <i class="fa fa-shopping-basket" ></i>
+                Giỏ Hàng
+              </button>
+            </div>
+          </div>
+        </nav>
+
+      </header>
+
+      <main>
+        <div class="container mt-3" id="hang">
+          <br><h1>Chi tiết sản phẩm</h1><br><hr>
+        </div>
+        <div class="container mt-3">
+          <div class="row">
+            <div class="col-4"><img src="img/giay.jpg" width="100%"></div>
+            <div class="col-7">
+              <h3>Giày thể thao</h3>
+              <div class="money">
+                <del style="position: relative; bottom: 10px;">600.000 vnđ</del><span class="giachinh">299.000 vnđ</span>
+                <span class="giamgia">Giảm 50%</span>
+                <p>Giá tốt nhất trên thị trường !</p>
+                
+              </div ><br><caption>Thông tin chi tiết</caption>
+                <table class="chitiet">
+                  <tr>
+                    <th>Màu sắc</th>
+                    <td>: Trắng, đen</td>
+                  </tr>
+                  <tr>
+                    <th>Thành phần</th>
+                    <td>: Đế cao su non, da PU cao cấp mềm mại, kết hợp vải sợi</td>
+                  </tr>
+                  <tr>
+                    <th>Năm sản xuất</th>
+                    <td>: tháng 11/2022</td>
+                  </tr>
+                  <tr>
+                    <th>Thông số kích thước</th>
+                    <td>: 40 41 42 43 44</td>
+                  </tr>
+                  <tr>
+                    <th>Xuất xứ</th>
+                    <td>: Việt Nam</td>
+                  </tr>
+                </table>
+                <button type="button" class="btn btn-cart">Thêm Vào Giỏ Hàng</button>
+
+            </div>
+          </div>
+
+        </div>
+
+
+      </main>
+    <footer>
+      <p>
+        &copy; 2022 Bản quyền thuộc về nhóm Five Pandas.
+        <br>
+        Mọi chi tiết vui lòng liên hệ:
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+        <a  href="#logo" role="button"></a>
+      </p>
+    
+
+    </footer>
+    
+    
+  </body>
+</html>

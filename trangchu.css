@@ -1,0 +1,28 @@
+
+
+.carousel-item{
+    position: relative;
+}
+
+h4{
+    margin: 5px 0px;
+    color: #ff3300;
+}
+.col{
+    
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px 10px;
+    border: 1px solid #dbd7d9;
+    padding: 0px;
+}
+.anh{
+    overflow: hidden;
+    display: inline-block;
+}
+.anh img{
+    transition: 0.8s;
+}
+.anh:hover img{
+    transform: scale(1.2, 1.2);
+}
